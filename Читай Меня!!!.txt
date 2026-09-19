@@ -89,3 +89,8 @@ python3 extract_slides.py --help
     Скрипт сам предложит changed_ratio — скопируйте его в команду извлечения.
 
     Если рекомендация не помогает — попробуйте --pixel-diff 50 (отсечёт больше шума) или --sample-interval 0.5 (точнее поймает момент смены).
+
+    Обработка учебных видео:
+
+    python3 extract_slides_V2.py 05.mp4 slides_1 --pixel-diff 50 --min-gap 5.0 --capture-delay 0.3 --changed-ratio 0.3240
+
