@@ -94,3 +94,8 @@ python3 extract_slides.py --help
 
     python3 extract_slides_V2.py 05.mp4 slides_1 --pixel-diff 50 --min-gap 5.0 --capture-delay 0.3 --changed-ratio 0.3240
 
+
+    ./run_extract.sh
+
+    ./run_extract.sh --check-only
+
